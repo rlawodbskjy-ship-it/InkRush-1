@@ -9,10 +9,13 @@ public class DrawLine2D : MonoBehaviour
     private Rigidbody2D rb;
 
     [Header("게이지 설정")]
-    public Slider drawGauge;      // UI Slider 연결
+    public Slider drawGauge;
     public float maxGauge = 1f;
-    public float useSpeed = 0.3f; // 그릴 때 감소 속도
-    public float regenSpeed = 0.2f; // 회복 속도
+    public float useSpeed = 0.3f;
+    public float regenSpeed = 0.2f;
+
+    [Header("화면 이동 보정")]
+    public float worldMoveSpeed = 5f;   // ✅ 배경이 움직이는 속도랑 동일하게!
 
     private float currentGauge;
 
@@ -48,7 +51,8 @@ public class DrawLine2D : MonoBehaviour
 
     void Update()
     {
-    
+        // ✅ 화면이 자동으로 왼쪽으로 흐르므로, 그린 선도 같이 이동
+        MoveLineWithWorld();
 
         // ✅ 게이지 0이면 그리기 불가
         if (currentGauge <= 0f)
@@ -64,7 +68,6 @@ public class DrawLine2D : MonoBehaviour
 
         if (Input.GetMouseButton(0) && isDrawing)
         {
-            // ✅ 게이지 소모
             currentGauge -= useSpeed * Time.deltaTime;
             currentGauge = Mathf.Clamp(currentGauge, 0, maxGauge);
             drawGauge.value = currentGauge;
@@ -98,5 +101,32 @@ public class DrawLine2D : MonoBehaviour
         {
             isDrawing = false;
         }
+    }
+
+    // ✅ 배경 이동 보정 함수 (이게 핵심)
+    void MoveLineWithWorld()
+    {
+        if (lineRenderer.positionCount == 0)
+            return;
+
+        Vector3 move = Vector3.left * worldMoveSpeed * Time.deltaTime;
+
+        for (int i = 0; i < lineRenderer.positionCount; i++)
+        {
+            Vector3 p = lineRenderer.GetPosition(i);
+            p += move;
+            lineRenderer.SetPosition(i, p);
+            worldPoints[i] = p;
+        }
+
+        // 콜라이더도 같이 갱신
+        localPoints.Clear();
+        for (int i = 0; i < worldPoints.Count; i++)
+        {
+            Vector2 local = transform.InverseTransformPoint(worldPoints[i]);
+            localPoints.Add(local);
+        }
+
+        edgeCollider.SetPoints(localPoints);
     }
 }
