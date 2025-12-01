@@ -1230,14 +1230,14 @@ RectTransform:
   m_GameObject: {fileID: 203194343}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.904567, y: 2.7756257, z: 0.7809435}
+  m_LocalScale: {x: 1.016462, y: 3.1189706, z: 0.87754625}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 987374607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -295, y: -176}
+  m_AnchoredPosition: {x: -342, y: -200}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203194345
@@ -1346,8 +1346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30c06ab74627da43bd38f1611f5a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleEffect
-  normalScale: {x: 0.904567, y: 2.775626, z: 0.7809435}
-  hoverScale: {x: 1.004567, y: 2.875626, z: 0.8809435}
+  normalScale: {x: 1.016462, y: 3.118971, z: 0.8775463}
+  hoverScale: {x: 1.116462, y: 3.218971, z: 0.9775463}
   speed: 10
 --- !u!1 &207589085
 GameObject:
@@ -6202,7 +6202,7 @@ Transform:
   m_GameObject: {fileID: 896449647}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 415.79666, y: 311.01434, z: 0}
+  m_LocalPosition: {x: 415.79666, y: 318, z: 0}
   m_LocalScale: {x: 11.841459, y: 11.841459, z: 11.841459}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13902,14 +13902,14 @@ RectTransform:
   m_GameObject: {fileID: 1985991548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.904567, y: 2.7756257, z: 0.7809435}
+  m_LocalScale: {x: 1.016462, y: 3.1189706, z: 0.87754625}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 987374607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121.161545, y: -176}
+  m_AnchoredPosition: {x: -121.161545, y: -200}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985991550
@@ -14018,8 +14018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30c06ab74627da43bd38f1611f5a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleEffect
-  normalScale: {x: 0.904567, y: 2.775626, z: 0.7809435}
-  hoverScale: {x: 1.004567, y: 2.875626, z: 0.8809435}
+  normalScale: {x: 1.016462, y: 3.118971, z: 0.8775463}
+  hoverScale: {x: 1.116462, y: 3.218971, z: 0.9775463}
   speed: 10
 --- !u!1 &1989985106
 GameObject:
@@ -14860,14 +14860,14 @@ RectTransform:
   m_GameObject: {fileID: 2075753028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.904567, y: 2.7756257, z: 0.7809435}
+  m_LocalScale: {x: 1.016462, y: 3.1189706, z: 0.87754625}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 987374607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: -176}
+  m_AnchoredPosition: {x: 99, y: -200}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075753030
@@ -14976,8 +14976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30c06ab74627da43bd38f1611f5a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScaleEffect
-  normalScale: {x: 0.904567, y: 2.775626, z: 0.7809435}
-  hoverScale: {x: 1.004567, y: 2.875626, z: 0.8809435}
+  normalScale: {x: 1.016462, y: 3.118971, z: 0.8775463}
+  hoverScale: {x: 1.116462, y: 3.218971, z: 0.9775463}
   speed: 10
 --- !u!1 &2078667789
 GameObject:
