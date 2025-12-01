@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,24 +37,24 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,12 +108,1354 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Congratulations_idle_8_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1137
+        width: 332
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340e28d4296f853469e4811f25f7afec
+      internalID: -1949610647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1292
+        width: 342
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4efb4d9a4e129b428736eafefdbef41
+      internalID: -199102849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1214
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94984cec37b135943b8b567fa069298b
+      internalID: -372334189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_3
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1096
+        width: 265
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff412c9c0ad058a4abe4efb85fd4ae88
+      internalID: -753045412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1110
+        width: 109
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357358198c41f342a1e106ee6dc43fb
+      internalID: 126572603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1136
+        width: 61
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a6a303dcd80f4409cccba6b686b1ce
+      internalID: 491281393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1208
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe359ac37bbc33643875cda28088fe14
+      internalID: -1053175981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1144
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee35b9750d26a0b42aabec6aa4e8cf8e
+      internalID: 2118845430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 987
+        width: 233
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b40d6b3dad1f4dbd00cf3e68e664b
+      internalID: 657880837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1078
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e04a0b1a1b21de49b2b261ab97bd16e
+      internalID: 759913748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1153
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579ee411b98bc7e458a243350db4f871
+      internalID: -993251733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 867
+        width: 241
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1146191e2b41b41a2122c22dce2697
+      internalID: -1054892461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_12
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1104
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba06d80e8d3a1a7489e0fb8e7c03757d
+      internalID: -1685826000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1099
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b3c23eb30cf54ab7c89cc7b026a85
+      internalID: -227276763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_14
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1122
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dad38a6906bb1a42acd3e31279d3b50
+      internalID: -1839983405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_15
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1072
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa6ecae0fcaba64b97bbb965fa07413
+      internalID: 278654402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 877
+        width: 184
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2a8b10c766f544d8432562e40aa863
+      internalID: 220554950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 801
+        width: 145
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df735d6252d3d34bacccc28ccc46240
+      internalID: 1697229831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1046
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b215dab02524c94e95c05d0b82bc155
+      internalID: 487470599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 976
+        width: 37
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e3236fa82b18b4ca4a277143a242ae
+      internalID: -461910053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_20
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 986
+        width: 134
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0bc5624351254c8d45f66caac590e
+      internalID: 1353427214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 978
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64031139e3670ea4da6da8f51c7796d5
+      internalID: 2128204792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_22
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 986
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02278ee4152a14d4a9fa8cd3e2ec1383
+      internalID: -1710013611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_23
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 943
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9b662d3fd501949bef4af3e9816183
+      internalID: 1754885584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_24
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 946
+        width: 113
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c7305c69e2bb14fba5b1ce4d395568
+      internalID: -1535800010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 846
+        width: 220
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bdd3ec5e5a2e444bfeae9bb37401d5
+      internalID: -1907370195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 831
+        width: 130
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497f7414b509af14da9ffade0169253b
+      internalID: -872606346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 398
+        width: 458
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087234a1c812a20429011791a7bb4cb8
+      internalID: -233229108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 754
+        width: 183
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682d97b4a5bd2b44083914ff9586b8f3
+      internalID: 512903789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_29
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 848
+        width: 190
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ed1aca467bf0141bd15f5dd8fd1608
+      internalID: -1789088026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_30
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 911
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b677acfba8948145ad7c34beaadf8e1
+      internalID: 42070116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 737
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e3f21764c1c1d4498d01ffeb8ea8c9
+      internalID: 1499139263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 763
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19685e30dc9d394fbfb7f9dac4592d5
+      internalID: -822064920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_33
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 799
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe3c9cb42c99c442acbc03ba6a1237f
+      internalID: -1662200299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 816
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb15c43bd832ec40b02fce51099e7e3
+      internalID: 1254701483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_35
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 776
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a751aa3f5e30f346a619c1501f4199d
+      internalID: -1906644021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_36
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 792
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e5cee060d1f945986f55ce6405d7f
+      internalID: 1910188449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 778
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ef1a71c5aeacf4ca5d6bdf094240fb
+      internalID: 1900381570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 656
+        width: 118
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596a408cb28c54b4fbc8a9238dffb8dc
+      internalID: -106315087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_39
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 727
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da6a77331e211843b11e6f5d3dc78de
+      internalID: -1222432238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_40
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 737
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab3e6bb021428f4388569ff6a62609d
+      internalID: 1300442064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 676
+        width: 205
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e2ee17f014f247b8860a21d94be0b
+      internalID: 860992218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 394
+        width: 130
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5228770cc423442b9a874d0872a4cf
+      internalID: 217317522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 357
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc69294af7747f746ada4a0b8f227623
+      internalID: 1097618453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 576
+        width: 193
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7621c53176ca4a648afdd0ac0075845d
+      internalID: 1139472052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_45
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 434
+        width: 228
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c8613c759a4ef4496fdd94b7f5fbcb
+      internalID: 1944117585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_46
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 372
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9499d0312311d1c438b14771427092dd
+      internalID: -1032582820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_47
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 400
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc4df3c45fe35f4c80a6d55a8db6e43
+      internalID: 1283390262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_48
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 516
+        width: 194
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0481a9de6abd734ba2d7967dfa7b207
+      internalID: -1015858154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_49
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 488
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8049d6e38f2a4097738828f8c2951
+      internalID: 1827718095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_50
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 379
+        width: 274
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4085668f686d2794884e2f1d2a15b328
+      internalID: -638406600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 364
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0ed1085f88c940908c03644de5380
+      internalID: 1683539510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_52
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 337
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddc07368fab7d04c9e57ea0594c4c1b
+      internalID: -292276103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 8
+        width: 223
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd129ac569f35e4fbf1d072e49ffe42
+      internalID: -147244441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_54
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 259
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2805da66cac6c9242a86a1d8e34cec6b
+      internalID: -367697070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_55
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 307
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f931ec5cb2243c4dba2d6e979e652bf
+      internalID: -591205062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_56
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 12
+        width: 234
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72488f4254e6b974b87e903047670434
+      internalID: 1266052925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_57
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 290
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091897fe3576e854e9e606c2fa24e7f9
+      internalID: -1320094774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_58
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 244
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f560d672830be847bdda056fd3022ab
+      internalID: -1131910397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 229
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be8e622e0f0ef44f8dc293ef03ef165
+      internalID: 305666778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Congratulations_idle_8_60
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 5
+        width: 186
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e442d8cc714bab43811a21560a3cc1f
+      internalID: 209232111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfbb3918116d1024d8eb52ac62330b93
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +1463,71 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Congratulations_idle_8_0: -1949610647
+      Congratulations_idle_8_1: -199102849
+      Congratulations_idle_8_10: -993251733
+      Congratulations_idle_8_11: -1054892461
+      Congratulations_idle_8_12: -1685826000
+      Congratulations_idle_8_13: -227276763
+      Congratulations_idle_8_14: -1839983405
+      Congratulations_idle_8_15: 278654402
+      Congratulations_idle_8_16: 220554950
+      Congratulations_idle_8_17: 1697229831
+      Congratulations_idle_8_18: 487470599
+      Congratulations_idle_8_19: -461910053
+      Congratulations_idle_8_2: -372334189
+      Congratulations_idle_8_20: 1353427214
+      Congratulations_idle_8_21: 2128204792
+      Congratulations_idle_8_22: -1710013611
+      Congratulations_idle_8_23: 1754885584
+      Congratulations_idle_8_24: -1535800010
+      Congratulations_idle_8_25: -1907370195
+      Congratulations_idle_8_26: -872606346
+      Congratulations_idle_8_27: -233229108
+      Congratulations_idle_8_28: 512903789
+      Congratulations_idle_8_29: -1789088026
+      Congratulations_idle_8_3: -753045412
+      Congratulations_idle_8_30: 42070116
+      Congratulations_idle_8_31: 1499139263
+      Congratulations_idle_8_32: -822064920
+      Congratulations_idle_8_33: -1662200299
+      Congratulations_idle_8_34: 1254701483
+      Congratulations_idle_8_35: -1906644021
+      Congratulations_idle_8_36: 1910188449
+      Congratulations_idle_8_37: 1900381570
+      Congratulations_idle_8_38: -106315087
+      Congratulations_idle_8_39: -1222432238
+      Congratulations_idle_8_4: 126572603
+      Congratulations_idle_8_40: 1300442064
+      Congratulations_idle_8_41: 860992218
+      Congratulations_idle_8_42: 217317522
+      Congratulations_idle_8_43: 1097618453
+      Congratulations_idle_8_44: 1139472052
+      Congratulations_idle_8_45: 1944117585
+      Congratulations_idle_8_46: -1032582820
+      Congratulations_idle_8_47: 1283390262
+      Congratulations_idle_8_48: -1015858154
+      Congratulations_idle_8_49: 1827718095
+      Congratulations_idle_8_5: 491281393
+      Congratulations_idle_8_50: -638406600
+      Congratulations_idle_8_51: 1683539510
+      Congratulations_idle_8_52: -292276103
+      Congratulations_idle_8_53: -147244441
+      Congratulations_idle_8_54: -367697070
+      Congratulations_idle_8_55: -591205062
+      Congratulations_idle_8_56: 1266052925
+      Congratulations_idle_8_57: -1320094774
+      Congratulations_idle_8_58: -1131910397
+      Congratulations_idle_8_59: 305666778
+      Congratulations_idle_8_6: -1053175981
+      Congratulations_idle_8_60: 209232111
+      Congratulations_idle_8_7: 2118845430
+      Congratulations_idle_8_8: 657880837
+      Congratulations_idle_8_9: 759913748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

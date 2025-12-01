@@ -439,9 +439,13 @@
 "Assets/Scripts/InfiniteBackground.cs"
 "Assets/Scripts/InfiniteScroll.cs"
 "Assets/Scripts/LevelLoader.cs"
+"Assets/Scripts/light.cs"
+"Assets/Scripts/LightFollow.cs"
 "Assets/Scripts/LoopBackgroundGroup.cs"
+"Assets/Scripts/MainUIFade.cs"
 "Assets/Scripts/Parallax.cs"
 "Assets/Scripts/PlayerMove2D.cs"
+"Assets/Scripts/PlayerPotionCollector.cs"
 "Assets/Scripts/StoryStartButton.cs"
 "Assets/Scripts/toggle.cs"
 -langversion:9.0

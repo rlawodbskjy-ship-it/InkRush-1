@@ -22,6 +22,13 @@ public class DrawLine2D : MonoBehaviour
     private List<Vector2> worldPoints = new();
     private List<Vector2> localPoints = new();
     private bool isDrawing;
+    public void RecoverGauge(float amount)
+    {
+        currentGauge += amount;
+        currentGauge = Mathf.Clamp(currentGauge, 0, maxGauge);
+        drawGauge.value = currentGauge;
+    }
+
 
     void Awake()
     {
