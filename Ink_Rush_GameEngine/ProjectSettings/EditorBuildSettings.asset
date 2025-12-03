@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/scene/startscene.unity
     guid: 69090db27ddeaa246bc8eb78455e6685
   - enabled: 1
-    path: Assets/scene/StoryScene.unity
+    path: Assets/scene/level1start.unity
     guid: 5fca20608dc57e14fbb0b87b331c80f8
   - enabled: 1
     path: Assets/scene/level1scene.unity
@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/scene/level3scene.unity
     guid: 82f61462c2164f7489dbf8f3bd36ebe0
   - enabled: 1
-    path: Assets/scene/StoryScene1.unity
+    path: Assets/scene/level2start.unity
     guid: b000f3ec87d0ef148a9e9223a2885e6a
   - enabled: 1
-    path: Assets/scene/StoryScene2.unity
+    path: Assets/scene/level3start.unity
     guid: 658910eede2ce494bbfeb6a416f89b4f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
