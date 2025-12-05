@@ -10,6 +10,13 @@ public class FadeController : MonoBehaviour
 
     // 🔥 모든 씬에서 공유되는 플래그
     private static bool firstScenePassed = false;
+    public static FadeController Instance;
+
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+    }
 
     void Start()
     {
