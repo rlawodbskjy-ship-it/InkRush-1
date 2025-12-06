@@ -108,12 +108,34 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Congratulations_idle_5_41
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 320
+        width: 866
+        height: 963
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a17b521e2660bb429c66709f23f4cf9
+      internalID: 2105729925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c3f83eb95e85444bae93ac41e7e2d88
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +143,54 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Congratulations_idle_5_0: 1501901123
+      Congratulations_idle_5_1: 777450456
+      Congratulations_idle_5_10: 1669537446
+      Congratulations_idle_5_11: -1799090769
+      Congratulations_idle_5_12: -803888418
+      Congratulations_idle_5_13: -1004848545
+      Congratulations_idle_5_14: -1250065045
+      Congratulations_idle_5_15: -1033650611
+      Congratulations_idle_5_16: 1360839919
+      Congratulations_idle_5_17: 102870307
+      Congratulations_idle_5_18: -2063828094
+      Congratulations_idle_5_19: -1874176818
+      Congratulations_idle_5_2: 1432946320
+      Congratulations_idle_5_20: -1216218034
+      Congratulations_idle_5_21: 283303280
+      Congratulations_idle_5_22: -1485901397
+      Congratulations_idle_5_23: -1227964106
+      Congratulations_idle_5_24: -742910926
+      Congratulations_idle_5_25: 1920640393
+      Congratulations_idle_5_26: 564474542
+      Congratulations_idle_5_27: -593700227
+      Congratulations_idle_5_28: -445657158
+      Congratulations_idle_5_29: 96028678
+      Congratulations_idle_5_3: 1577147282
+      Congratulations_idle_5_30: -281605744
+      Congratulations_idle_5_31: 376084539
+      Congratulations_idle_5_32: -1770972540
+      Congratulations_idle_5_33: 166527914
+      Congratulations_idle_5_34: 2038819133
+      Congratulations_idle_5_35: 531144870
+      Congratulations_idle_5_36: 2013004270
+      Congratulations_idle_5_37: -1793665182
+      Congratulations_idle_5_38: 1816810685
+      Congratulations_idle_5_39: 1994267994
+      Congratulations_idle_5_4: 2090376497
+      Congratulations_idle_5_40: -1872846827
+      Congratulations_idle_5_41: 2105729925
+      Congratulations_idle_5_42: -2110331312
+      Congratulations_idle_5_43: 2064337767
+      Congratulations_idle_5_5: 2025222145
+      Congratulations_idle_5_6: -1225388569
+      Congratulations_idle_5_7: -2004667989
+      Congratulations_idle_5_8: -1413484920
+      Congratulations_idle_5_9: 155769908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

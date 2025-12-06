@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Potion
   - Obstacle
+  - LineBlock
   layers:
   - Default
   - TransparentFX

@@ -108,12 +108,34 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Congratulations_idle_2_97
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 577
+        width: 400
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7704c9a6bffd09b418ed72ec13f77fcc
+      internalID: -784353588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1b70f321e44e29e4fad7f294d4909c4c
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +143,179 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Congratulations_idle_2_0: 366218400
+      Congratulations_idle_2_1: 1320278713
+      Congratulations_idle_2_10: 1155035578
+      Congratulations_idle_2_100: 1583743908
+      Congratulations_idle_2_101: 1133011092
+      Congratulations_idle_2_102: 464589085
+      Congratulations_idle_2_103: 605382544
+      Congratulations_idle_2_104: 1736519254
+      Congratulations_idle_2_105: -1394638007
+      Congratulations_idle_2_106: 40025247
+      Congratulations_idle_2_107: 1317569852
+      Congratulations_idle_2_108: -858539134
+      Congratulations_idle_2_109: 449919713
+      Congratulations_idle_2_11: 1716918384
+      Congratulations_idle_2_110: 920634858
+      Congratulations_idle_2_111: -1382309646
+      Congratulations_idle_2_112: -434822196
+      Congratulations_idle_2_113: 2085867177
+      Congratulations_idle_2_114: 1412069609
+      Congratulations_idle_2_115: 1055870591
+      Congratulations_idle_2_116: 137896419
+      Congratulations_idle_2_117: 236884675
+      Congratulations_idle_2_118: -533231298
+      Congratulations_idle_2_119: -843799012
+      Congratulations_idle_2_12: 1136423083
+      Congratulations_idle_2_120: -1805822898
+      Congratulations_idle_2_121: -245319803
+      Congratulations_idle_2_122: -1708048710
+      Congratulations_idle_2_123: 1663089376
+      Congratulations_idle_2_124: 965734140
+      Congratulations_idle_2_125: -168376295
+      Congratulations_idle_2_126: -1799947461
+      Congratulations_idle_2_127: -966781367
+      Congratulations_idle_2_128: -1543108887
+      Congratulations_idle_2_129: 1249069009
+      Congratulations_idle_2_13: -486768595
+      Congratulations_idle_2_130: 329043716
+      Congratulations_idle_2_131: -1097831782
+      Congratulations_idle_2_132: -110052094
+      Congratulations_idle_2_133: 312054048
+      Congratulations_idle_2_134: -1657769808
+      Congratulations_idle_2_135: 279428279
+      Congratulations_idle_2_136: -1108290796
+      Congratulations_idle_2_137: 599588990
+      Congratulations_idle_2_138: 17374396
+      Congratulations_idle_2_139: 80006277
+      Congratulations_idle_2_14: 455358188
+      Congratulations_idle_2_140: -1244070262
+      Congratulations_idle_2_141: -774628745
+      Congratulations_idle_2_142: -1001320766
+      Congratulations_idle_2_143: -1467402595
+      Congratulations_idle_2_144: -1411095505
+      Congratulations_idle_2_145: -2061897432
+      Congratulations_idle_2_146: 558858675
+      Congratulations_idle_2_147: 8327969
+      Congratulations_idle_2_148: 1150369241
+      Congratulations_idle_2_149: -1060592962
+      Congratulations_idle_2_15: -1455372420
+      Congratulations_idle_2_150: 1140852953
+      Congratulations_idle_2_151: -1705502664
+      Congratulations_idle_2_152: -1327746962
+      Congratulations_idle_2_153: 1308022370
+      Congratulations_idle_2_154: -1160989585
+      Congratulations_idle_2_155: 1245857538
+      Congratulations_idle_2_156: -382185723
+      Congratulations_idle_2_157: 1605212399
+      Congratulations_idle_2_158: 217932938
+      Congratulations_idle_2_159: 121776939
+      Congratulations_idle_2_16: -1869728671
+      Congratulations_idle_2_160: -864359017
+      Congratulations_idle_2_161: -1534582728
+      Congratulations_idle_2_162: 1803487707
+      Congratulations_idle_2_163: 1187128136
+      Congratulations_idle_2_164: 1285579037
+      Congratulations_idle_2_165: 116967194
+      Congratulations_idle_2_166: -1913857185
+      Congratulations_idle_2_167: -866823935
+      Congratulations_idle_2_168: 2094415315
+      Congratulations_idle_2_17: -1617655369
+      Congratulations_idle_2_18: -1204546036
+      Congratulations_idle_2_19: 816361496
+      Congratulations_idle_2_2: 1316490633
+      Congratulations_idle_2_20: -933151425
+      Congratulations_idle_2_21: -1413947614
+      Congratulations_idle_2_22: 715765354
+      Congratulations_idle_2_23: 875114278
+      Congratulations_idle_2_24: -280565562
+      Congratulations_idle_2_25: 1314780501
+      Congratulations_idle_2_26: -2058069390
+      Congratulations_idle_2_27: -88374267
+      Congratulations_idle_2_28: -1376281240
+      Congratulations_idle_2_29: 1407192589
+      Congratulations_idle_2_3: -1954321517
+      Congratulations_idle_2_30: 1565923954
+      Congratulations_idle_2_31: -165888782
+      Congratulations_idle_2_32: 2127872216
+      Congratulations_idle_2_33: 1648971996
+      Congratulations_idle_2_34: -909479143
+      Congratulations_idle_2_35: 361457096
+      Congratulations_idle_2_36: -749538640
+      Congratulations_idle_2_37: 194029245
+      Congratulations_idle_2_38: -1876236262
+      Congratulations_idle_2_39: 1057349763
+      Congratulations_idle_2_4: -789964045
+      Congratulations_idle_2_40: -1466450962
+      Congratulations_idle_2_41: -490528056
+      Congratulations_idle_2_42: -1876336647
+      Congratulations_idle_2_43: 2027984416
+      Congratulations_idle_2_44: 518431163
+      Congratulations_idle_2_45: -636679905
+      Congratulations_idle_2_46: 1298548709
+      Congratulations_idle_2_47: -936242058
+      Congratulations_idle_2_48: -1039504462
+      Congratulations_idle_2_49: 831008099
+      Congratulations_idle_2_5: 1372368421
+      Congratulations_idle_2_50: -1552472833
+      Congratulations_idle_2_51: -132664986
+      Congratulations_idle_2_52: -155878720
+      Congratulations_idle_2_53: 1253521981
+      Congratulations_idle_2_54: -631428757
+      Congratulations_idle_2_55: 1744331642
+      Congratulations_idle_2_56: 330942367
+      Congratulations_idle_2_57: 1285879344
+      Congratulations_idle_2_58: -159300574
+      Congratulations_idle_2_59: -580740669
+      Congratulations_idle_2_6: -943035313
+      Congratulations_idle_2_60: 1866521945
+      Congratulations_idle_2_61: -1591220515
+      Congratulations_idle_2_62: 1970130204
+      Congratulations_idle_2_63: -581085911
+      Congratulations_idle_2_64: -2142849871
+      Congratulations_idle_2_65: -902156091
+      Congratulations_idle_2_66: 1872395592
+      Congratulations_idle_2_67: -335130413
+      Congratulations_idle_2_68: 331422374
+      Congratulations_idle_2_69: -1228617352
+      Congratulations_idle_2_7: -432129499
+      Congratulations_idle_2_70: 53417285
+      Congratulations_idle_2_71: 1751676453
+      Congratulations_idle_2_72: 2106342469
+      Congratulations_idle_2_73: -1287958847
+      Congratulations_idle_2_74: -236049498
+      Congratulations_idle_2_75: -898148983
+      Congratulations_idle_2_76: -792869870
+      Congratulations_idle_2_77: -1975052430
+      Congratulations_idle_2_78: 1577383395
+      Congratulations_idle_2_79: -861608918
+      Congratulations_idle_2_8: -732717441
+      Congratulations_idle_2_80: -661351158
+      Congratulations_idle_2_81: -1751001380
+      Congratulations_idle_2_82: -756456753
+      Congratulations_idle_2_83: -1613263448
+      Congratulations_idle_2_84: 1905883255
+      Congratulations_idle_2_85: 1683476243
+      Congratulations_idle_2_86: 521901197
+      Congratulations_idle_2_87: -1370377166
+      Congratulations_idle_2_88: 1317953000
+      Congratulations_idle_2_89: 965175404
+      Congratulations_idle_2_9: -270983057
+      Congratulations_idle_2_90: -2059373792
+      Congratulations_idle_2_91: -387764717
+      Congratulations_idle_2_92: 1310408338
+      Congratulations_idle_2_93: 737589231
+      Congratulations_idle_2_94: 1234745393
+      Congratulations_idle_2_95: 1730488114
+      Congratulations_idle_2_96: -436215177
+      Congratulations_idle_2_97: -784353588
+      Congratulations_idle_2_98: 99427489
+      Congratulations_idle_2_99: 178743125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
