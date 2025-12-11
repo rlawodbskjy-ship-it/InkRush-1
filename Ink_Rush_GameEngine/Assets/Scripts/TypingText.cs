@@ -8,6 +8,10 @@ public class TypingText : MonoBehaviour
     public string message;
     public float typingSpeed = 0.05f;
 
+    [Header("Typing Sound")]
+    public AudioSource audioSource;     // 🔊 타이핑 소리 재생용
+    public float soundVolume = 1f;      // 🔊 소리 크기
+
     Coroutine typingRoutine;
 
     void OnEnable()
@@ -15,7 +19,6 @@ public class TypingText : MonoBehaviour
         StartTyping();
     }
 
-    // ✅ 외부에서 호출 가능한 함수
     public void StartTyping()
     {
         if (typingRoutine != null)
@@ -24,7 +27,6 @@ public class TypingText : MonoBehaviour
         typingRoutine = StartCoroutine(Play());
     }
 
-    // ❌ 외부 접근 막고
     IEnumerator Play()
     {
         textUI.text = "";
@@ -32,6 +34,14 @@ public class TypingText : MonoBehaviour
         foreach (char c in message)
         {
             textUI.text += c;
+
+            // 🔊 사운드 재생 (속도에 맞춰 한 번만 재생)
+            if (audioSource != null)
+            {
+                audioSource.volume = soundVolume;
+                audioSource.Play();  // typingSpeed보다 빠르지 않게 Play만 호출
+            }
+
             yield return new WaitForSeconds(typingSpeed);
         }
     }

@@ -439,10 +439,12 @@
 "Assets/Scripts/CIRCLELIGHTNING.cs"
 "Assets/Scripts/DrawLine2D.cs"
 "Assets/Scripts/EndingSequence.cs"
+"Assets/Scripts/EndPoint.cs"
 "Assets/Scripts/FadeController.cs"
 "Assets/Scripts/GameOverDrop.cs"
 "Assets/Scripts/GameOverFadeOut.cs"
 "Assets/Scripts/GameOverManager.cs"
+"Assets/Scripts/GOALMUSIC.cs"
 "Assets/Scripts/GoalTrigger GoalTrigger.cs"
 "Assets/Scripts/HomeButton.cs"
 "Assets/Scripts/InfiniteBackground.cs"
@@ -461,6 +463,7 @@
 "Assets/Scripts/PlayerHit.cs"
 "Assets/Scripts/PlayerMove2D.cs"
 "Assets/Scripts/PlayerPotionCollector.cs"
+"Assets/Scripts/PotionPickup.cs"
 "Assets/Scripts/Rain.cs"
 "Assets/Scripts/RainGroupTrigger.cs"
 "Assets/Scripts/SpikeMove.cs"
@@ -472,6 +475,7 @@
 "Assets/Scripts/toggle.cs"
 "Assets/Scripts/TutorialStart.cs"
 "Assets/Scripts/TypingText.cs"
+"Assets/Scripts/UIAudioManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

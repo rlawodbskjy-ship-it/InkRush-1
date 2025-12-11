@@ -15,13 +15,19 @@ public class DrawLine2D : MonoBehaviour
     public float regenSpeed = 0.2f;
 
     [Header("화면 이동 보정")]
-    public float worldMoveSpeed = 5f;   // ✅ 배경이 움직이는 속도랑 동일하게!
+    public float worldMoveSpeed = 5f;
 
     private float currentGauge;
 
     private List<Vector2> worldPoints = new();
     private List<Vector2> localPoints = new();
     private bool isDrawing;
+
+    [Header("사운드 설정")]
+    public AudioClip drawSound;
+    private AudioSource audioSource;
+
+
     public void RecoverGauge(float amount)
     {
         currentGauge += amount;
@@ -29,17 +35,17 @@ public class DrawLine2D : MonoBehaviour
         drawGauge.value = currentGauge;
     }
 
-
     void Awake()
     {
-        if (!TryGetComponent(out lineRenderer))
-            lineRenderer = gameObject.AddComponent<LineRenderer>();
+        TryGetComponent(out lineRenderer);
+        TryGetComponent(out edgeCollider);
+        TryGetComponent(out rb);
 
-        if (!TryGetComponent(out edgeCollider))
-            edgeCollider = gameObject.AddComponent<EdgeCollider2D>();
-
-        if (!TryGetComponent(out rb))
-            rb = gameObject.AddComponent<Rigidbody2D>();
+        // 오디오 설정
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.loop = true;
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.6f;
 
         rb.bodyType = RigidbodyType2D.Static;
 
@@ -58,16 +64,34 @@ public class DrawLine2D : MonoBehaviour
 
     void Update()
     {
-        // ✅ 화면이 자동으로 왼쪽으로 흐르므로, 그린 선도 같이 이동
+        // 🛑 미션 클리어 or 게임오버 → 그리기 금지
+        if (GoalTrigger.MissionCleared || GameOverManager.GameOver)
+        {
+            if (audioSource.isPlaying)
+                audioSource.Stop();
+            return;
+        }
+
         MoveLineWithWorld();
 
-        // ✅ 게이지 0이면 그리기 불가
+        // 게이지 없으면 종료
         if (currentGauge <= 0f)
+        {
+            if (audioSource.isPlaying)
+                audioSource.Stop();
             return;
+        }
 
         if (Input.GetMouseButtonDown(0))
         {
             isDrawing = true;
+
+            if (drawSound != null)
+            {
+                audioSource.clip = drawSound;
+                audioSource.Play();
+            }
+
             worldPoints.Clear();
             localPoints.Clear();
             lineRenderer.positionCount = 0;
@@ -79,17 +103,31 @@ public class DrawLine2D : MonoBehaviour
             currentGauge = Mathf.Clamp(currentGauge, 0, maxGauge);
             drawGauge.value = currentGauge;
 
-            if (currentGauge <= 0f)
+            if (currentGauge <= 0)
             {
+                audioSource.Stop();
                 isDrawing = false;
                 return;
             }
 
-            Vector3 wp3 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            // -------------------------
+            // 🎯 펜 끝 위치 사용 (EndPoint)
+            // -------------------------
+            Vector3 wp3;
+
+            if (EndPoint.Instance != null)
+            {
+                wp3 = EndPoint.Instance.GetWorldPosition();
+            }
+            else
+            {
+                wp3 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            }
+
             wp3.z = 0f;
             Vector2 worldPos = wp3;
 
-            if (worldPoints.Count == 0 ||
+            if (worldPoints.Count == 0 || 
                 Vector2.Distance(worldPoints[^1], worldPos) > 0.1f)
             {
                 worldPoints.Add(worldPos);
@@ -107,10 +145,10 @@ public class DrawLine2D : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             isDrawing = false;
+            audioSource.Stop();
         }
     }
 
-    // ✅ 배경 이동 보정 함수 (이게 핵심)
     void MoveLineWithWorld()
     {
         if (lineRenderer.positionCount == 0)
@@ -126,7 +164,6 @@ public class DrawLine2D : MonoBehaviour
             worldPoints[i] = p;
         }
 
-        // 콜라이더도 같이 갱신
         localPoints.Clear();
         for (int i = 0; i < worldPoints.Count; i++)
         {

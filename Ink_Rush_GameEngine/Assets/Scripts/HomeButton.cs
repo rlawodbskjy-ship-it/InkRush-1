@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class HomeButton : MonoBehaviour
 {
-   public void GoHome()
-    {
-        Time.timeScale = 1f;               // 게임 정지 상태 해제
-        FadeController.Instance.FadeToScene("startscene");
-    }
+    public GameOverFadeOut fadeOut;
 
+    public void GoHome()
+    {
+        // 🔥 GameOverFadeOut의 페이드 + 씬로드 실행
+        fadeOut.OnClickHome();
+    }
 }
