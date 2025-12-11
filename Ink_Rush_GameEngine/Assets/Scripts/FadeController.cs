@@ -55,7 +55,8 @@ public class FadeController : MonoBehaviour
         float t = 0f;
         while (t < fadeDuration)
         {
-            t += Time.deltaTime;
+            t += Time.unscaledDeltaTime;
+
             SetAlpha(Mathf.Lerp(0f, 1f, t / fadeDuration));
             yield return null;
         }
@@ -67,7 +68,8 @@ public class FadeController : MonoBehaviour
         float t = 0f;
         while (t < fadeDuration)
         {
-            t += Time.deltaTime;
+            t += Time.unscaledDeltaTime;
+
             SetAlpha(Mathf.Lerp(1f, 0f, t / fadeDuration));
             yield return null;
         }
