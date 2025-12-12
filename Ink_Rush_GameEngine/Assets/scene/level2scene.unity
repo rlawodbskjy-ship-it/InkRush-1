@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &75548343
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &78930665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &171117096
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,7 +2067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &219441115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2373,7 +2373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &258647776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,9 +2475,10 @@ GameObject:
   - component: {fileID: 262013198}
   - component: {fileID: 262013200}
   - component: {fileID: 262013199}
+  - component: {fileID: 262013201}
   m_Layer: 0
   m_Name: Lightning (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2577,6 +2578,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &262013201
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262013197}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1 &262223102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,7 +2901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &286349970
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,7 +3175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &324786160
 GameObject:
   m_ObjectHideFlags: 0
@@ -4131,7 +4199,7 @@ Transform:
   m_GameObject: {fileID: 433394196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.031982422, y: -1.5619965, z: 0}
+  m_LocalPosition: {x: -1.93, y: -1.5619965, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4754,9 +4822,10 @@ GameObject:
   m_Component:
   - component: {fileID: 532196145}
   - component: {fileID: 532196146}
+  - component: {fileID: 532196147}
   m_Layer: 0
   m_Name: Thorn_fall_0 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4834,6 +4903,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &532196147
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532196144}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.5625, y: 26.625}
+      - {x: 6.875, y: 30.125}
+      - {x: 2.25, y: 32}
+      - {x: -5.375, y: 32}
+      - {x: -13.4375, y: 10.9375}
+      - {x: -13.4375, y: -10.3125}
+      - {x: -13.25, y: -10.5}
+      - {x: -9.0625, y: -21.0625}
+      - {x: -8.875, y: -21.25}
+      - {x: -6, y: -30.1875}
+      - {x: -1.625, y: -32}
+      - {x: 5.625, y: -32}
+      - {x: 14.0625, y: -12.125}
+      - {x: 14.0625, y: 11.75}
+      - {x: 9.6875, y: 21.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &534591312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,7 +5067,6 @@ GameObject:
   - component: {fileID: 539384941}
   - component: {fileID: 539384940}
   - component: {fileID: 539384942}
-  - component: {fileID: 539384943}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Ground
@@ -22325,6 +22455,14 @@ PolygonCollider2D:
       - {x: -40.20593, y: 9.011379}
       - {x: -40.99739, y: 9.017155}
       - {x: -59.01909, y: 9.063538}
+      - {x: -58.975456, y: 9.99675}
+      - {x: -59.961243, y: 10.074764}
+      - {x: -60.00116, y: 11.0283165}
+      - {x: -62.64267, y: 10.929058}
+      - {x: -63.948433, y: 11.00201}
+      - {x: -63.962677, y: 9.89772}
+      - {x: -63.962677, y: 9.89772}
+      - {x: -64.96951, y: 9.957008}
       - {x: -64.917, y: 9.011433}
       - {x: -64.9428, y: 9.011318}
       - {x: -65.15778, y: 9.01038}
@@ -22333,52 +22471,6 @@ PolygonCollider2D:
       - {x: 12.612366, y: 1.8228302}
       - {x: 114.97791, y: 1.924984}
   m_UseDelaunayMesh: 0
---- !u!61 &539384943
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539384938}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -57.80835, y: 5.359871}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 70.3833, y: 7.3566055}
-  m_EdgeRadius: 0
 --- !u!1 &552338120
 GameObject:
   m_ObjectHideFlags: 0
@@ -22492,7 +22584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &577049871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -22516,7 +22608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &579669164
 GameObject:
   m_ObjectHideFlags: 0
@@ -24735,7 +24827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &771982084
 GameObject:
   m_ObjectHideFlags: 0
@@ -24977,7 +25069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &797697611
 GameObject:
   m_ObjectHideFlags: 0
@@ -25967,9 +26059,10 @@ GameObject:
   - component: {fileID: 893984455}
   - component: {fileID: 893984457}
   - component: {fileID: 893984456}
+  - component: {fileID: 893984458}
   m_Layer: 0
   m_Name: Lightning (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26069,6 +26162,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &893984458
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893984454}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1 &909921536
 GameObject:
   m_ObjectHideFlags: 0
@@ -26271,7 +26431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &963600383
 GameObject:
   m_ObjectHideFlags: 0
@@ -26745,6 +26905,50 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2086097641}
   m_SourcePrefab: {fileID: 100100000, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
+--- !u!1 &984032146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984032148}
+  - component: {fileID: 984032147}
+  m_Layer: 0
+  m_Name: GameStateReset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &984032147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984032146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaed8afa9375bc41b6641951ec5adf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateReset
+--- !u!4 &984032148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984032146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.08075, y: -48.37939, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990095846
 GameObject:
   m_ObjectHideFlags: 0
@@ -26952,7 +27156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1006779710
 GameObject:
   m_ObjectHideFlags: 0
@@ -27479,7 +27683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1061388192
 GameObject:
   m_ObjectHideFlags: 0
@@ -28073,7 +28277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1076867804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -28097,7 +28301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1077283296
 GameObject:
   m_ObjectHideFlags: 0
@@ -63575,7 +63779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1132925377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -63599,7 +63803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1142639628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -63623,7 +63827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1142760603
 GameObject:
   m_ObjectHideFlags: 0
@@ -63635,9 +63839,10 @@ GameObject:
   - component: {fileID: 1142760604}
   - component: {fileID: 1142760606}
   - component: {fileID: 1142760605}
+  - component: {fileID: 1142760607}
   m_Layer: 0
   m_Name: Lightning
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63737,6 +63942,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1142760607
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142760603}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1151985370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63970,7 +64242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1172865736
 GameObject:
   m_ObjectHideFlags: 0
@@ -63982,9 +64254,10 @@ GameObject:
   - component: {fileID: 1172865737}
   - component: {fileID: 1172865739}
   - component: {fileID: 1172865738}
+  - component: {fileID: 1172865740}
   m_Layer: 0
   m_Name: Thorn_three_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64084,6 +64357,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1172865740
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172865736}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 28.75}
+    newSize: {x: 64, y: 28.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 27.5, y: 3.75}
+      - {x: 21.625, y: 14.375}
+      - {x: 16.9375, y: 14.375}
+      - {x: 8, y: -1.9375}
+      - {x: 8, y: 3.4375}
+      - {x: 5.375, y: 9.5625}
+      - {x: 2.125, y: 14.375}
+      - {x: -2.375, y: 14.375}
+      - {x: -11.25, y: -1.75}
+      - {x: -11.5, y: 3.75}
+      - {x: -14.375, y: 9.625}
+      - {x: -17.375, y: 14.3125}
+      - {x: -17.4375, y: 14.375}
+      - {x: -21.125, y: 14.375}
+      - {x: -24, y: 9.5625}
+      - {x: -32, y: -8.0625}
+      - {x: -32, y: -14.375}
+      - {x: 32, y: -14.375}
+      - {x: 32, y: -8.0625}
+      - {x: 29.6875, y: -2.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1175413657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64329,9 +64669,10 @@ GameObject:
   - component: {fileID: 1186279002}
   - component: {fileID: 1186279004}
   - component: {fileID: 1186279003}
+  - component: {fileID: 1186279005}
   m_Layer: 0
   m_Name: Lightning (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64431,6 +64772,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1186279005
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186279001}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1187074246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -64454,7 +64862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1188282569
 GameObject:
   m_ObjectHideFlags: 0
@@ -64741,7 +65149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1215217908 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -64765,7 +65173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1216401859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -64789,7 +65197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &1231409457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66711,7 +67119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1427304248
 GameObject:
   m_ObjectHideFlags: 0
@@ -66773,9 +67181,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1436810045}
   - component: {fileID: 1436810046}
+  - component: {fileID: 1436810047}
   m_Layer: 0
   m_Name: Thorn_fall_0 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66853,6 +67262,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1436810047
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436810044}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.5625, y: 26.625}
+      - {x: 6.875, y: 30.125}
+      - {x: 2.25, y: 32}
+      - {x: -5.375, y: 32}
+      - {x: -13.4375, y: 10.9375}
+      - {x: -13.4375, y: -10.3125}
+      - {x: -13.25, y: -10.5}
+      - {x: -9.0625, y: -21.0625}
+      - {x: -8.875, y: -21.25}
+      - {x: -6, y: -30.1875}
+      - {x: -1.625, y: -32}
+      - {x: 5.625, y: -32}
+      - {x: 14.0625, y: -12.125}
+      - {x: 14.0625, y: 11.75}
+      - {x: 9.6875, y: 21.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1438751241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67386,7 +67857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1500921967 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -67410,7 +67881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1510006218
 GameObject:
   m_ObjectHideFlags: 0
@@ -67662,7 +68133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1577196175
 GameObject:
   m_ObjectHideFlags: 0
@@ -67689,7 +68160,7 @@ Transform:
   m_GameObject: {fileID: 1577196175}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.6195319, y: -0.28015968, z: 0}
+  m_LocalPosition: {x: -5.64, y: -0.28015968, z: 0}
   m_LocalScale: {x: 1.0772108, y: 1.023361, z: 1.023361}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67776,7 +68247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1615390404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -67800,7 +68271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1637042007
 GameObject:
   m_ObjectHideFlags: 0
@@ -68301,9 +68772,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1655606586}
   - component: {fileID: 1655606587}
+  - component: {fileID: 1655606588}
   m_Layer: 0
   m_Name: Thorn_fall_0
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68381,6 +68853,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1655606588
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655606585}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.5625, y: 26.625}
+      - {x: 6.875, y: 30.125}
+      - {x: 2.25, y: 32}
+      - {x: -5.375, y: 32}
+      - {x: -13.4375, y: 10.9375}
+      - {x: -13.4375, y: -10.3125}
+      - {x: -13.25, y: -10.5}
+      - {x: -9.0625, y: -21.0625}
+      - {x: -8.875, y: -21.25}
+      - {x: -6, y: -30.1875}
+      - {x: -1.625, y: -32}
+      - {x: 5.625, y: -32}
+      - {x: 14.0625, y: -12.125}
+      - {x: 14.0625, y: 11.75}
+      - {x: 9.6875, y: 21.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1664920055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -68404,7 +68938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &1679914001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68521,9 +69055,10 @@ GameObject:
   - component: {fileID: 1680484051}
   - component: {fileID: 1680484053}
   - component: {fileID: 1680484052}
+  - component: {fileID: 1680484054}
   m_Layer: 0
   m_Name: Lightning (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68623,6 +69158,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1680484054
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680484050}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1685698473
 GameObject:
   m_ObjectHideFlags: 0
@@ -68994,7 +69596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &1730146649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69123,7 +69725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1745707478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -69147,7 +69749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1749738231
 GameObject:
   m_ObjectHideFlags: 0
@@ -69159,9 +69761,10 @@ GameObject:
   - component: {fileID: 1749738232}
   - component: {fileID: 1749738234}
   - component: {fileID: 1749738233}
+  - component: {fileID: 1749738235}
   m_Layer: 0
   m_Name: Lightning (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69261,6 +69864,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1749738235
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749738231}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.9375, y: -13.9375}
+      - {x: 12.1875, y: 3.375}
+      - {x: 12.1875, y: 7.5625}
+      - {x: 5.3125, y: 7.9375}
+      - {x: 7.5625, y: 14.3125}
+      - {x: 7.5625, y: 25.1875}
+      - {x: 5.375, y: 27.4375}
+      - {x: 2.6875, y: 27.4375}
+      - {x: -4.375, y: 14.25}
+      - {x: -11.1875, y: 1.375}
+      - {x: -11.1875, y: -3.375}
+      - {x: -4.5, y: -9.25}
+      - {x: -6.4375, y: -9.4375}
+      - {x: -6.5625, y: -9.5625}
+      - {x: -6.5625, y: -27.0625}
+      - {x: -6.4375, y: -27.1875}
+      - {x: -4.1875, y: -27.1875}
+      - {x: -3.875, y: -25.0625}
+      - {x: -1.6875, y: -24.75}
+      - {x: 0.5625, y: -20.5625}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1750090964
 GameObject:
   m_ObjectHideFlags: 0
@@ -69480,7 +70150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1775785172
 GameObject:
   m_ObjectHideFlags: 0
@@ -69688,7 +70358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1830333238
 GameObject:
   m_ObjectHideFlags: 0
@@ -69960,7 +70630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1840851124
 GameObject:
   m_ObjectHideFlags: 0
@@ -70347,7 +71017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1878299200
 GameObject:
   m_ObjectHideFlags: 0
@@ -71577,7 +72247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &1961579936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530130082270448614, guid: 2541f6f8c4324c342875457b625431fd, type: 3}
@@ -71601,7 +72271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &1971710422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71969,7 +72639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &2011468454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72271,7 +72941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1 &2067889162
 GameObject:
   m_ObjectHideFlags: 0
@@ -72468,7 +73138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 1362778783}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &2091701493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72820,7 +73490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rain
   splashPrefab: {fileID: 2458919887529572420, guid: bae38d1063b7a4e41b0cbf7200e2fa0f, type: 3}
-  mapParent: {fileID: 173155177}
+  mapParent: {fileID: 708168570}
 --- !u!1001 &2119479889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73077,3 +73747,4 @@ SceneRoots:
   - {fileID: 724610631}
   - {fileID: 95251552}
   - {fileID: 1705091310}
+  - {fileID: 984032148}

@@ -444,6 +444,7 @@
 "Assets/Scripts/GameOverDrop.cs"
 "Assets/Scripts/GameOverFadeOut.cs"
 "Assets/Scripts/GameOverManager.cs"
+"Assets/Scripts/GameStateReset.cs"
 "Assets/Scripts/GOALMUSIC.cs"
 "Assets/Scripts/GoalTrigger GoalTrigger.cs"
 "Assets/Scripts/HomeButton.cs"

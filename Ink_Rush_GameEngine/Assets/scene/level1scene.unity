@@ -403,7 +403,7 @@ RectTransform:
   - {fileID: 1864200904}
   - {fileID: 1945641190}
   - {fileID: 2136143265}
-  - {fileID: 413961151}
+  - {fileID: 1808501899}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ad3faaa2de20634c839aac70cac9ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PenCursor
-  penImage: {fileID: 413961151}
+  penImage: {fileID: 1808501899}
 --- !u!1 &83999349
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135978810}
   - component: {fileID: 135978811}
+  - component: {fileID: 135978812}
   m_Layer: 0
   m_Name: Thorn_one_0 (5)
   m_TagString: Obstacle
@@ -901,6 +902,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &135978812
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135978809}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &142976254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1707,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &169968158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169968160}
+  - component: {fileID: 169968159}
+  m_Layer: 0
+  m_Name: GameStateReset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &169968159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169968158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaed8afa9375bc41b6641951ec5adf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateReset
+--- !u!4 &169968160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169968158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.08075, y: -48.37939, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &176019204
 GameObject:
   m_ObjectHideFlags: 0
@@ -9327,54 +9431,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &212289007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 212289008}
-  - component: {fileID: 212289009}
-  m_Layer: 5
-  m_Name: ' EndPoint '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &212289008
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212289007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 413961151}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: -47}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &212289009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212289007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da5351312b82794d8be11eabe2bf7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EndPoint
 --- !u!1 &221993088
 GameObject:
   m_ObjectHideFlags: 0
@@ -10052,6 +10108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230821643}
   - component: {fileID: 230821644}
+  - component: {fileID: 230821645}
   m_Layer: 0
   m_Name: Thorn_one_0 (6)
   m_TagString: Obstacle
@@ -10132,6 +10189,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &230821645
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230821642}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &237595153
 GameObject:
   m_ObjectHideFlags: 0
@@ -10347,6 +10463,7 @@ GameObject:
   - component: {fileID: 250319011}
   - component: {fileID: 250319010}
   - component: {fileID: 250319012}
+  - component: {fileID: 250319013}
   m_Layer: 0
   m_Name: Thorn_one_0
   m_TagString: Obstacle
@@ -10428,6 +10545,65 @@ Transform:
   m_Father: {fileID: 228320392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &250319012
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250319009}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
+--- !u!60 &250319013
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10729,6 +10905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263122314}
   - component: {fileID: 263122315}
+  - component: {fileID: 263122316}
   m_Layer: 0
   m_Name: Thorn_one_0 (10)
   m_TagString: Obstacle
@@ -10809,6 +10986,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &263122316
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263122313}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &264152758
 GameObject:
   m_ObjectHideFlags: 0
@@ -11833,7 +12069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1549725994, guid: 3ad80832b1e247347a50e99a3d8b1b7e, type: 3}
+  m_Sprite: {fileID: 2034272485, guid: 2bdd419c9036fe04f9a68205c248404d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14329,95 +14565,6 @@ MonoBehaviour:
   typingSpeed: 0.05
   audioSource: {fileID: 1200900854}
   soundVolume: 1
---- !u!1 &413961150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 413961151}
-  - component: {fileID: 413961153}
-  - component: {fileID: 413961152}
-  - component: {fileID: 413961154}
-  m_Layer: 5
-  m_Name: PenCursorUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &413961151
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413961150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 212289008}
-  m_Father: {fileID: 44683644}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &413961152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413961150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 1711478271, guid: cc4115457de18644487cfbad7d20343f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &413961153
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413961150}
-  m_CullTransparentMesh: 1
---- !u!114 &413961154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413961150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da5351312b82794d8be11eabe2bf7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EndPoint
 --- !u!1 &416770847
 GameObject:
   m_ObjectHideFlags: 0
@@ -17924,6 +18071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772480995}
   - component: {fileID: 772480996}
+  - component: {fileID: 772480997}
   m_Layer: 0
   m_Name: Thorn_three_0 (2)
   m_TagString: Obstacle
@@ -18004,6 +18152,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &772480997
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772480994}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 28.75}
+    newSize: {x: 64, y: 28.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 27.5, y: 3.75}
+      - {x: 21.625, y: 14.375}
+      - {x: 16.9375, y: 14.375}
+      - {x: 8, y: -1.9375}
+      - {x: 8, y: 3.4375}
+      - {x: 5.375, y: 9.5625}
+      - {x: 2.125, y: 14.375}
+      - {x: -2.375, y: 14.375}
+      - {x: -11.25, y: -1.75}
+      - {x: -11.5, y: 3.75}
+      - {x: -14.375, y: 9.625}
+      - {x: -17.375, y: 14.3125}
+      - {x: -17.4375, y: 14.375}
+      - {x: -21.125, y: 14.375}
+      - {x: -24, y: 9.5625}
+      - {x: -32, y: -8.0625}
+      - {x: -32, y: -14.375}
+      - {x: 32, y: -14.375}
+      - {x: 32, y: -8.0625}
+      - {x: 29.6875, y: -2.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &776146958
 GameObject:
   m_ObjectHideFlags: 0
@@ -20017,6 +20232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996186770}
   - component: {fileID: 996186771}
+  - component: {fileID: 996186772}
   m_Layer: 0
   m_Name: Thorn_one_0 (11)
   m_TagString: Obstacle
@@ -20097,6 +20313,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &996186772
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996186769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &998682434
 GameObject:
   m_ObjectHideFlags: 0
@@ -21250,6 +21525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135116666}
   - component: {fileID: 1135116667}
+  - component: {fileID: 1135116668}
   m_Layer: 0
   m_Name: Thorn_one_0 (4)
   m_TagString: Obstacle
@@ -21330,6 +21606,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1135116668
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135116665}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1145214936
 GameObject:
   m_ObjectHideFlags: 0
@@ -22444,6 +22779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257490773}
   - component: {fileID: 1257490774}
+  - component: {fileID: 1257490775}
   m_Layer: 0
   m_Name: Thorn_one_0 (8)
   m_TagString: Obstacle
@@ -22524,6 +22860,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1257490775
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257490772}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1259844368
 GameObject:
   m_ObjectHideFlags: 0
@@ -22925,6 +23320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283011720}
   - component: {fileID: 1283011721}
+  - component: {fileID: 1283011722}
   m_Layer: 0
   m_Name: Thorn_one_0 (9)
   m_TagString: Obstacle
@@ -23005,6 +23401,113 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1283011722
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283011719}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
+--- !u!1 &1284173789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1284173790}
+  - component: {fileID: 1284173791}
+  m_Layer: 5
+  m_Name: EndPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1284173790
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284173789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1808501899}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -45.4, y: -49.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1284173791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284173789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da5351312b82794d8be11eabe2bf7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndPoint
 --- !u!1 &1287225108
 GameObject:
   m_ObjectHideFlags: 0
@@ -24056,6 +24559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399180301}
   - component: {fileID: 1399180302}
+  - component: {fileID: 1399180303}
   m_Layer: 0
   m_Name: Thorn_one_0 (2)
   m_TagString: Obstacle
@@ -24136,6 +24640,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1399180303
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399180300}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1421509964
 GameObject:
   m_ObjectHideFlags: 0
@@ -24557,6 +25120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457596303}
   - component: {fileID: 1457596304}
+  - component: {fileID: 1457596305}
   m_Layer: 0
   m_Name: Thorn_one_0 (3)
   m_TagString: Obstacle
@@ -24637,6 +25201,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1457596305
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457596302}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1460246565
 GameObject:
   m_ObjectHideFlags: 0
@@ -28068,6 +28691,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e360baf15ee69c4fb93cee5c6f45072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopOnLineHit
+--- !u!1 &1808501898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1808501899}
+  - component: {fileID: 1808501902}
+  - component: {fileID: 1808501901}
+  m_Layer: 5
+  m_Name: PenCursorUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1808501899
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808501898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1284173790}
+  m_Father: {fileID: 44683644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1808501901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808501898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1711478271, guid: cc4115457de18644487cfbad7d20343f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1808501902
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808501898}
+  m_CullTransparentMesh: 1
 --- !u!1 &1830333238
 GameObject:
   m_ObjectHideFlags: 0
@@ -29000,6 +29699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896450843}
   - component: {fileID: 1896450844}
+  - component: {fileID: 1896450845}
   m_Layer: 0
   m_Name: Thorn_one_0 (1)
   m_TagString: Obstacle
@@ -29080,6 +29780,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1896450845
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896450842}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1915434166
 GameObject:
   m_ObjectHideFlags: 0
@@ -29564,6 +30323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970824842}
   - component: {fileID: 1970824843}
+  - component: {fileID: 1970824844}
   m_Layer: 0
   m_Name: Thorn_one_0 (7)
   m_TagString: Obstacle
@@ -29644,6 +30404,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1970824844
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970824841}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 64, y: 64}
+    newSize: {x: 64, y: 64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 14.9375, y: 12.375}
+      - {x: 14.75, y: 12.5625}
+      - {x: 9.4375, y: 23.5625}
+      - {x: 3.0625, y: 32}
+      - {x: -3.25, y: 32}
+      - {x: -9.4375, y: 23.4375}
+      - {x: -20.875, y: 1.25}
+      - {x: -32, y: -20}
+      - {x: -32, y: -32}
+      - {x: 32, y: -32}
+      - {x: 32, y: -20.5}
+      - {x: 26.75, y: -9.6875}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1974283395
 GameObject:
   m_ObjectHideFlags: 0
@@ -31116,7 +31935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5051aabffc74fa4cb7ab2d6c814f826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PenCursorManager
-  penCursorUI: {fileID: 413961150}
+  penCursorUI: {fileID: 1808501898}
   missionClearPanel: {fileID: 239734233}
   gameOverPanel: {fileID: 1945641189}
   endingPanel: {fileID: 1864200903}
@@ -31175,3 +31994,4 @@ SceneRoots:
   - {fileID: 1332790133}
   - {fileID: 1545173402}
   - {fileID: 592392671}
+  - {fileID: 169968160}
