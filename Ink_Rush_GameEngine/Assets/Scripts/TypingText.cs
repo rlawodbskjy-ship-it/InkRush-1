@@ -5,12 +5,13 @@ using System.Collections;
 public class TypingText : MonoBehaviour
 {
     public TextMeshProUGUI textUI;
+    [TextArea(2, 10)]        // 💡 인스펙터에서 줄바꿈 가능하도록
     public string message;
     public float typingSpeed = 0.05f;
 
     [Header("Typing Sound")]
-    public AudioSource audioSource;     // 🔊 타이핑 소리 재생용
-    public float soundVolume = 1f;      // 🔊 소리 크기
+    public AudioSource audioSource;
+    public float soundVolume = 1f;
 
     Coroutine typingRoutine;
 
@@ -35,11 +36,11 @@ public class TypingText : MonoBehaviour
         {
             textUI.text += c;
 
-            // 🔊 사운드 재생 (속도에 맞춰 한 번만 재생)
+            // 🔊 타이핑 사운드
             if (audioSource != null)
             {
                 audioSource.volume = soundVolume;
-                audioSource.Play();  // typingSpeed보다 빠르지 않게 Play만 호출
+                audioSource.Play();
             }
 
             yield return new WaitForSeconds(typingSpeed);

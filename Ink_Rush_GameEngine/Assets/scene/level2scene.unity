@@ -4010,8 +4010,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypingText
   textUI: {fileID: 410617199}
-  message: "\uB2E4\uD589\uC774\uC57C!              \uCF00\uC774\uD06C\uB97C \uAD6C\uD588\uB2E4!!             
-    \uC5C4\uB9C8\uAC00 \uC88B\uC544\uD558\uC2DC\uACA0\uC9C0!?!?"
+  message: "\uB2E4\uD589\uC774\uC57C! \n\uCF00\uC774\uD06C\uB97C \uAD6C\uD588\uB2E4!!
+    \n\uC5C4\uB9C8\uAC00 \uC88B\uC544\uD558\uC2DC\uACA0\uC9C0!?!?"
   typingSpeed: 0.05
   audioSource: {fileID: 724610630}
   soundVolume: 1
