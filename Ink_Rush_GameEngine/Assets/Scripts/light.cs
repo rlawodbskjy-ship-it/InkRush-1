@@ -6,7 +6,7 @@ public class LightBlink : MonoBehaviour
     public Sprite spriteA;
     public Sprite spriteB;
 
-    public float interval = 0.5f; // 몇 초마다 바뀔지
+    public float interval = 1.5f; // 몇 초마다 바뀔지
 
     private SpriteRenderer sr;
 
